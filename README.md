@@ -1,24 +1,33 @@
-# README
+# Rails + Elm + Webpack + Heroku Example App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## What is this?
 
-Things you may want to cover:
+This is a [Rails] application scaffold demonstrating changes to be made to
+prepare for deployment to [Heroku] to run the application and [Elm], using
+[webpack] to [compile and build] all assets.
 
-* Ruby version
+[Rails]: http://rubyonrails.org/
+[Heroku]: https://www.heroku.com/
+[Elm]: http://elm-lang.org/
+[webpack]: https://webpack.github.io/
+[compile and build]: https://github.com/rails/webpacker
 
-* System dependencies
+## Deploying to Heroku
 
-* Configuration
+To deploy to Heroku, create a Heroku app (if you haven't already).
 
-* Database creation
+    heroku create
 
-* Database initialization
+## Running Rails
 
-* How to run the test suite
+To start your Rails app:
 
-* Services (job queues, cache servers, search engines, etc.)
+  * Install dependencies with `bin/setup`
+  * Start Rails with `rails s`
+  * Start the webpack development server with `bin/webpack-dev-server`
 
-* Deployment instructions
+Now you can visit [`localhost:3000`](http://localhost:3000) from your browser.
 
-* ...
+## License
+
+Copyright 2017 Josh Clayton. See the [LICENSE](LICENSE).
