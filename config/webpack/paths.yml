@@ -21,6 +21,7 @@ default: &default
     - .gif
     - .jpeg
     - .jpg
+    - .elm
 
 development:
   <<: *default
