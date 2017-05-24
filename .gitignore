@@ -24,3 +24,5 @@
 /tmp
 /public
 /log
+/public/packs
+/node_modules
